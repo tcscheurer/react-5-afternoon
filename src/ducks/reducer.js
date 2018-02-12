@@ -111,7 +111,7 @@ export function updateDownPayment(downPayment){
 }
 
 export function updateCredit(credit){
-    return {tyep: UPDATE_CREDIT, payload: credit}
+    return {type: UPDATE_CREDIT, payload: credit}
 }
 
 export function updateHistory(history){

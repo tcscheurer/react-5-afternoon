@@ -6,6 +6,7 @@ import {updateAddressOne,updateAddressTwo,updateAddressThree} from '../../ducks/
 class WizardNine extends Component {
 
     render(){
+        const {updateAddressOne,updateAddressTwo,updateAddressThree} = this.props;
         return(
             <div className="parent-div">
                 <div className="vert-align">                    

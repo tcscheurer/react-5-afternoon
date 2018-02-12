@@ -7,6 +7,7 @@ import {updateRealEstateAgent} from '../../ducks/reducer';
 class WizardFive extends Component {
 
     render(){
+        const {updateRealEstateAgent} = this.props;
         return(
             <div className="parent-div">
                     <div className="vert-align">    

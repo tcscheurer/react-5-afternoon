@@ -6,6 +6,7 @@ import {updateFirstName,updateLastName,updateEmail} from '../../ducks/reducer';
 
 class WizardTen extends Component {
     render(){
+        const {updateFirstName,updateLastName,updateEmail} = this.props;
         return(
             <div className="parent-div">
                 <div className="vert-align">                    
